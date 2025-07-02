@@ -14249,7 +14249,7 @@ end)
 
 addcmd("explorer", { "dex" }, function(args, speaker)
 	notify("Loading", "Hold on a sec")
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Jko-Scripts/JkoDex/main/Source.luau"))()
 end)
 
 addcmd("cobalt", { "rspy" }, function(args, speaker)
